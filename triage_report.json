@@ -1,0 +1,38 @@
+[
+    {
+        "timestamp": "2026-06-17T09:15:00",
+        "user": "jsmith",
+        "source_ip": "192.168.1.50",
+        "url_clicked": "http://google.com",
+        "file_hash": "NA",
+        "threat_score": 0,
+        "severity": "BENIGN / LOW RISK",
+        "triage_notes": [
+            "No immediate threats detected"
+        ]
+    },
+    {
+        "timestamp": "2026-06-17T10:22:15",
+        "user": "agarcia",
+        "source_ip": "185.220.101.1",
+        "url_clicked": "http://malware-test-domain.xyz",
+        "file_hash": "NA",
+        "threat_score": 50,
+        "severity": "MALICIOUS",
+        "triage_notes": [
+            "AbuseIPDB HIGH CONFIDENCE (100%)"
+        ]
+    },
+    {
+        "timestamp": "2026-06-17T11:05:33",
+        "user": "mjohnson",
+        "source_ip": "10.0.0.15",
+        "url_clicked": "http://dropbox.com",
+        "file_hash": "4c240b7390c55ac5768a7fd8d3ec6c0595f21624b2c50aee0892ef090dc1fe1f",
+        "threat_score": 0,
+        "severity": "BENIGN / LOW RISK",
+        "triage_notes": [
+            "No immediate threats detected"
+        ]
+    }
+]
